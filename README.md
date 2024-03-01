@@ -33,7 +33,9 @@ pip3 uninstall torchvision
 ```` bash
  sudo apt-get -y update; 
  sudo apt-get -y python3-pip libopenblas-dev;
+
 ```
+
 ##### Next, install PyTorch with the following steps:
 Export with the following command:
 
