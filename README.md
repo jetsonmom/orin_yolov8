@@ -21,12 +21,15 @@ pip3 install ultralytics
 
 torch-2.2.0 torchvision-0.17.0
 ##### 4~5. uninstall 영상에는 있으나 나는 skip
+
 ``` bash
 pip3 uninstall torch
 pip3 uninstall torchvision
 ```
+
 #### chapter 2. Prerequisites and Installation
 ##### 2-2. Install system packages required by PyTorch:
+
 ```` bash
  sudo apt-get -y update; 
  sudo apt-get -y python3-pip libopenblas-dev;
