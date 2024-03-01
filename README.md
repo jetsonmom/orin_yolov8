@@ -69,11 +69,16 @@ python3 setup.py install --user
 #### chapter 3. camera setting
 ``` bash
 git clone https://github.com/JetsonHacksNano/installLibrealsense.git
+cd ~/installLibrealsense/scripts 
 ```
-** buildLibrealsense.sh-> shell script를 수정한다.**
+** buildLibrealsense.sh-> shell script를 아래와 같이 수정한다.**
 ** DBUILD_PYTHON_BINDINGS=bool:true -DPYTHON_EXECUTABLE=$(which python3)**
 
-orin@orin-desktop:~/installLibrealsense/scripts$ cd ..
+``` bash
+cd ..
+./buildLibrealsense.sh -j 2
+```
+##### 경로 확인
 orin@orin-desktop:~/installLibrealsense$ ./buildLibrealsense.sh -j 2
 
 
