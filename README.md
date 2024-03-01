@@ -8,5 +8,11 @@
 ``` bash
 pip3 install -U python-dateutil
 ```
+##### 3. ultralytics 패키지를 설치
 ``` bash
-pip3 install ultralytics```
+pip3 install ultralytics
+```
+##### 결과 결과
+ Successfully installed filelock-3.13.1 fsspec-2024.2.0 jinja2-3.1.3 networkx-3.2.1 numpy-1.26.4 opencv-python-4.9.0.80 psutil-5.9.8 py-cpuinfo-9.0.0 seaborn-0.13.2 thop-0.1.1.post2209072238 torch-2.2.0 torchvision-0.17.0 tqdm-4.66.1 typing-extensions-4.9.0 ultralytics-8.1.10
+
+torch-2.2.0 torchvision-0.17.0---> important
