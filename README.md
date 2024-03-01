@@ -61,7 +61,20 @@ sudo apt-get install libjpeg-dev zlib1g-dev python3-dev libopenblas-dev libavfor
 ```
 ``` bash
 git clone --branch v0.17.0 https://github.com/pytorch/vision torchvision
-#youtube v0.16.0
+cd torchvision
+export BUILD VERSION=0.17.0
+
+python3 setup.py install --user
 ```
+#### chapter 3. camera setting
+``` bash
+git clone https://github.com/JetsonHacksNano/installLibrealsense.git
+```
+##### **buildLibrealsense.sh-> shell script를 수정한다.**
+DBUILD_PYTHON_BINDINGS=bool:true -DPYTHON_EXECUTABLE=$(which python3)
+
+orin@orin-desktop:~/installLibrealsense/scripts$ cd ..
+orin@orin-desktop:~/installLibrealsense$ ./buildLibrealsense.sh -j 2
+
 
 
