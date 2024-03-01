@@ -39,3 +39,29 @@ pip3 uninstall torchvision
 Export with the following command:
 
 
+``` bash
+export TORCH_INSTALL=https://developer.download.nvidia.cn/compute/redist/jp/v511/pytorch/torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64.whl
+export TORCH_INSTALL=https://developer.download.nvidia.cn/compute/redist/jp/v60dp/pytorch/torch-2.2.0a0+6a974be.nv23.11-cp310-cp310-linux_aarch64.whl
+
+```
+##### https://developer.download.nvidia.cn/compute/redist/jp/ 웹브라우저로 가면 v60dp
+##### Install PyTorch. 사이트랑 다르다.  유튜버는 다른 걸 하라한다. 유튜버를 따라서 해본다.
+
+```` bash
+python3 -m pip install --upgrade pip; 
+python3 -m pip install numpy==’1.26.4’ 
+python3 -m pip install --no-cache $TORCH_INSTALL
+python3 -m pip install --upgrade pip; python3 -m pip install aiohttp
+
+python3 -m pip install --upgrade protobuf
+
+python3 -m pip install --no-cache $TORTH_INSTALL
+
+sudo apt-get install libjpeg-dev zlib1g-dev python3-dev libopenblas-dev libavformat-dev libswscale-dev
+```
+``` bash
+git clone --branch v0.17.0 https://github.com/pytorch/vision torchvision
+#youtube v0.16.0
+```
+
+
