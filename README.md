@@ -4,6 +4,7 @@
 ``` bash
  sudo apt install python3-pip 
 ```
+##### 2. Python의 패키지 관리 도구인 pip를 사용하여 python-dateutil 패키지를 설치하거나 업데이트하는 데 사용, python-dateutil 패키지는 Python에서 날짜와 시간을 다루는 데 유용한 확장 기능을 제공
 ``` bash
 pip3 install -U python-dateutil
 ```
