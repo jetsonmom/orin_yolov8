@@ -70,8 +70,8 @@ python3 setup.py install --user
 ``` bash
 git clone https://github.com/JetsonHacksNano/installLibrealsense.git
 ```
-##### **buildLibrealsense.sh-> shell script를 수정한다.**
-DBUILD_PYTHON_BINDINGS=bool:true -DPYTHON_EXECUTABLE=$(which python3)
+** buildLibrealsense.sh-> shell script를 수정한다.**
+** DBUILD_PYTHON_BINDINGS=bool:true -DPYTHON_EXECUTABLE=$(which python3)**
 
 orin@orin-desktop:~/installLibrealsense/scripts$ cd ..
 orin@orin-desktop:~/installLibrealsense$ ./buildLibrealsense.sh -j 2
