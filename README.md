@@ -30,10 +30,10 @@ pip3 uninstall torchvision
 #### chapter 2. Prerequisites and Installation
 ##### 2-2. Install system packages required by PyTorch:
 
-```` bash
+``` bash
  sudo apt-get -y update; 
  sudo apt-get -y python3-pip libopenblas-dev;
-
+```
 
 ##### Next, install PyTorch with the following steps:
 Export with the following command:
